@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14e61faf-e1b8-40ed-82c3-aceb069df49e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/models/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/integration/models/test_store.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/unit/models/user_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/models/test_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/system/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/system/test_item.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/system/test_store.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/system/test_user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/unit/models/item_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/unit/models/item_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/integration/base_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/base_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/integration/models/item_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/integration/models/test_item.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/integration/models/test_store.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/integration/models/test_store.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/unit/models/user_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/unit/models/user_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,30 +40,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
       <recent name="$PROJECT_DIR$/tests/integration/models" />
       <recent name="$PROJECT_DIR$/tests/integration" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetests for test_store.StoreTest.test_crud">
-    <configuration name="Nosetests for item_test.ItemTest" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <module name="starter_code 2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit/models" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;item_test.ItemTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Nosetests for test_store.StoreTest.test_create_store">
     <configuration name="Nosetests for item_test.ItemTest" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="starter_code 2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,37 +65,22 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Nosetests for item_test.ItemTest.test_create_item" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests for test_store.StoreTest.test_create_store" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="starter_code 2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit/models" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/system" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;item_test.ItemTest.test_create_item&quot;" />
+      <option name="_new_target" value="&quot;test_store.StoreTest.test_create_store&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Nosetests for store_test.StoreTest" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <module name="starter_code 2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit/models" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;store_test.StoreTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Nosetests for test_store.StoreTest" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests for test_user.UserTest.test_crud" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="starter_code 2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,32 +91,62 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_store.StoreTest&quot;" />
+      <option name="_new_target" value="&quot;test_user.UserTest.test_crud&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Nosetests for test_store.StoreTest.test_crud" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests for test_user.UserTest.test_register_and_login" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="starter_code 2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/integration/models" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/system" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_store.StoreTest.test_crud&quot;" />
+      <option name="_new_target" value="&quot;test_user.UserTest.test_register_and_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests for test_user.UserTest.test_register_user" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="starter_code 2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/system" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_user.UserTest.test_register_user&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests for user_test.UserTest.test_create_user" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="starter_code 2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;user_test.UserTest.test_create_user&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Nosetests for test_store.StoreTest.test_crud" />
-        <item itemvalue="Python tests.Nosetests for test_store.StoreTest" />
-        <item itemvalue="Python tests.Nosetests for store_test.StoreTest" />
-        <item itemvalue="Python tests.Nosetests for item_test.ItemTest" />
-        <item itemvalue="Python tests.Nosetests for item_test.ItemTest.test_create_item" />
+        <item itemvalue="Python tests.Nosetests for test_store.StoreTest.test_create_store" />
+        <item itemvalue="Python tests.Nosetests for test_user.UserTest.test_register_and_login" />
+        <item itemvalue="Python tests.Nosetests for test_user.UserTest.test_register_user" />
+        <item itemvalue="Python tests.Nosetests for test_user.UserTest.test_crud" />
+        <item itemvalue="Python tests.Nosetests for user_test.UserTest.test_create_user" />
       </list>
     </recent_temporary>
   </component>
@@ -163,21 +164,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1403" height="4" key="GridCell.Tab.0.bottom" timestamp="1594059211773">
+    <state width="1403" height="125" key="GridCell.Tab.0.bottom" timestamp="1594132105285">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1403" height="4" key="GridCell.Tab.0.bottom/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1594059211773" />
-    <state width="1403" height="4" key="GridCell.Tab.0.center" timestamp="1594059211771">
+    <state width="1403" height="125" key="GridCell.Tab.0.bottom/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1594132105285" />
+    <state width="1403" height="125" key="GridCell.Tab.0.center" timestamp="1594132105283">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1403" height="4" key="GridCell.Tab.0.center/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1594059211771" />
-    <state width="1403" height="4" key="GridCell.Tab.0.left" timestamp="1594059211770">
+    <state width="1403" height="125" key="GridCell.Tab.0.center/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1594132105283" />
+    <state width="1403" height="125" key="GridCell.Tab.0.left" timestamp="1594132105281">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1403" height="4" key="GridCell.Tab.0.left/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1594059211770" />
-    <state width="1403" height="4" key="GridCell.Tab.0.right" timestamp="1594059211772">
+    <state width="1403" height="125" key="GridCell.Tab.0.left/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1594132105281" />
+    <state width="1403" height="125" key="GridCell.Tab.0.right" timestamp="1594132105284">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1403" height="4" key="GridCell.Tab.0.right/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1594059211772" />
+    <state width="1403" height="125" key="GridCell.Tab.0.right/74.-768.1366.768/0.0.1440.900@0.0.1440.900" timestamp="1594132105284" />
   </component>
 </project>
